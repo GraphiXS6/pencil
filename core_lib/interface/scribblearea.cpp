@@ -1474,6 +1474,7 @@ void ScribbleArea::endPolyline( QList<QPointF> points )
 
 /************************************************************************************/
 // view handling
+//************************************* this needs to be fixed so that the camera box can always bee seen (on any layer)
 
 QTransform ScribbleArea::getView()
 {
